@@ -26,7 +26,7 @@ const Domains = () => {
       description:
         "AI-driven systems in higher education refine student learning outcomes and optimize campus management. Our technologies assist in data-driven decision-making, personalized learning paths, and administrative automation.",
       icon: domain3, // Replace with actual path to the icon
-    }
+    },
   ];
 
   const cardRefs = useRef([]);
@@ -46,12 +46,12 @@ const Domains = () => {
         }
       });
     }, options);
-    
-    const current_cardRef = cardRefs.current
+
+    const current_cardRef = cardRefs.current;
     cardRefs.current.forEach((card) => {
       if (card) observer.observe(card);
     });
-    
+
     return () => {
       if (current_cardRef) {
         current_cardRef.forEach((card) => {

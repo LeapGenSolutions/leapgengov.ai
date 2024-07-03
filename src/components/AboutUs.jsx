@@ -26,10 +26,10 @@ const AboutUs = () => {
         >
           <img alt="" className="w-[120px] h-[120px]" src={Logo} />
           <h1 className="text-[40px] max-md:text-[25px] font-normal text-[#FFBFFF]">
-            About LeapgenGov.ai
+            About Leapgengov.ai
           </h1>
           <p className="text-base text-[16px] max-md:text-[14px]">
-            Welcome to LeapGenGov AI, where we blend innovation with intelligence
+            Welcome to LeapGen AI, where we blend innovation with intelligence
             to create cutting-edge AI solutions that redefine industries. As a
             leading provider of AI products and services, we are committed to
             empowering businesses with the tools and expertise they need to
@@ -43,7 +43,7 @@ const AboutUs = () => {
         >
           <img
             src={globeImage}
-            alt="LeapgenGov AI"
+            alt="Leapgen AI"
             className="rounded-xl w-[420px]"
           />
         </div>
