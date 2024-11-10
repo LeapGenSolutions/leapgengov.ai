@@ -72,6 +72,7 @@ function Footer({ handleMenuClick }) {
         <div className="flex gap-[20px]">
           <a
             href="https://x.com/LeapgenAi"
+            target="_blank" rel="noreferrer"
             className="text-twitter-color hover:text-gray-600 w-[28px] h-[28px]"
           >
             <svg
@@ -86,7 +87,8 @@ function Footer({ handleMenuClick }) {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/company/leap-gen-solutions/"
+            target="_blank" rel="noreferrer"
             className="text-linkedin-color hover:text-gray-600 w-[28px] h-[28px]"
           >
             <svg
@@ -102,6 +104,7 @@ function Footer({ handleMenuClick }) {
           </a>
           <a
             href="https://www.instagram.com/leapgen_solutions/"
+            target="_blank" rel="noreferrer"
             className="text-instagram-color hover:text-gray-600 w-[28px] h-[28px]"
           >
             <svg
@@ -117,6 +120,7 @@ function Footer({ handleMenuClick }) {
           </a>
           <a
             href="https://www.youtube.com/@LeapGenSolutions"
+            target="_blank" rel="noreferrer"
             className="text-youtube-color hover:text-gray-600 w-[28px] h-[28px]"
           >
             <svg

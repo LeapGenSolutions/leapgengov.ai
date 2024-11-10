@@ -26,9 +26,8 @@ const Header = ({ handleMenuClick }) => {
           />
         </svg>
         <nav
-          className={`fixed top-0 left-0 h-full bg-[#07020e] transition-transform duration-300 ease-in-out transform ${
-            navOpen ? "translate-x-0" : "-translate-x-full"
-          } max-md:block border-r-[0.2px] border-r-[#d640d6] w-1/2`}
+          className={`fixed top-0 left-0 h-full bg-[#07020e] transition-transform duration-300 ease-in-out transform ${navOpen ? "translate-x-0" : "-translate-x-full"
+            } max-md:block border-r-[0.2px] border-r-[#d640d6] w-1/2`}
         >
           <svg
             width="20"
@@ -99,7 +98,10 @@ const Header = ({ handleMenuClick }) => {
           </ul>
         </nav>
         <nav className={`flex flex-row items-center max-md:hidden`}>
-          <img alt="" className="w-[42px] h-[42px] mr-[1rem]" src={Logo} />
+          <img alt="" className="w-[42px] h-[42px] mr-[1rem] hover:cursor-pointer" src={Logo} onClick={() => {
+            handleMenuClick("hero");
+            setNavOpen(false);
+          }} />
           <ul className="flex gap-[20px]">
             <li onClick={() => handleMenuClick("hero")}>
               <button className="text-[#FFBFFF] hover:text-[#d640d6] font-light cursor-pointer">
