@@ -74,7 +74,8 @@ function Footer({ handleMenuClick }) {
             href="https://x.com/LeapgenAi"
             target="_blank"
             rel="noreferrer"
-            className="text-twitter-x-color hover:text-gray-600 w-[28px] h-[28px]"
+            className="text-twitter-x-color hover:
+            text-gray-600 w-[28px] h-[28px]"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
               focusable="false" width="28px" height="28px"
